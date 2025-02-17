@@ -10,7 +10,12 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.147",
     "@types/node": "^22.13.4",
     "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@middy/core": "^6.0.0",
+    "@middy/http-json-body-parser": "^6.0.0"
   }
 }
